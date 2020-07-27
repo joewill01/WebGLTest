@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Second WebGL!!</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #fps {
+            color: white;
+            font-weight: 700;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<canvas id="webgl-canvas"></canvas>
+<p id="fps">FPS: 0</p>
+<img src="texture.png" id="texture" width="0" height="0">
+<script src="gl-matrix.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
